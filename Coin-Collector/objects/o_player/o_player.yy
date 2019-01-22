@@ -1,0 +1,81 @@
+{
+    "id": "462dffc1-002c-4380-84a6-17ad2b84ce3a",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_player",
+    "eventList": [
+        {
+            "id": "13707ce5-7b05-4842-b37e-7e94ca634e04",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "462dffc1-002c-4380-84a6-17ad2b84ce3a"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "9763f46c-ae57-46a6-adfb-b3a1bddfc005",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "r_o_player_walk_speed",
+            "varType": 0
+        },
+        {
+            "id": "695f1d6d-2fd8-424d-a728-8ef064f4de07",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "r_o_player_jump_speed",
+            "varType": 0
+        },
+        {
+            "id": "a71217b2-c6ac-4d28-8095-e1fd6baa4e20",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "r_o_player_gravity",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "51f33ec9-7e4a-4dde-8941-fb5d2caa4737",
+    "visible": true
+}
